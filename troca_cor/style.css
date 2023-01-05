@@ -1,0 +1,39 @@
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+  
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    
+}
+
+.title h1{
+    text-align: center;
+    color: white;
+}
+
+.title button{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: white;
+    margin: auto;
+   
+}
